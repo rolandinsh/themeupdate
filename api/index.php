@@ -112,8 +112,4 @@ function array_to_object( $array = array( ) ) {
         $data->{$akey} = $aval;
     return $data;
 }
-<<<<<<< HEAD
-=======
 
-?>
->>>>>>> upstream/master

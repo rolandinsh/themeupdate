@@ -1,7 +1,7 @@
 <?php
 require_once('packages.php');
 // This is the folder where all update files are stored
-$update_folder = './update/';
+$update_folder = dirname(__FILE__).'/update/';
 
 if ( isset( $_GET['key'] ) ) {
     // loop over all the theme and plugin arrays
@@ -29,8 +29,4 @@ if ( isset( $_GET['key'] ) ) {
         }
     }
 }
-<<<<<<< HEAD
 
-=======
-?>
->>>>>>> upstream/master
