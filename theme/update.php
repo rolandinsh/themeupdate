@@ -53,7 +53,7 @@ function check_for_update($checked_data) {
 			'action' => 'theme_update', 
 			'request' => serialize($request),
 			'api-key' => md5(get_bloginfo('url')),
-			'sitehash' => md5(get_bloginfo('url'))
+			'sitehash' => md5(get_option('hash'))
 		),
 		'user-agent' => 'WordPress/' . $wp_version . '; ' . get_bloginfo('url')
 	);
